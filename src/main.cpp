@@ -6,7 +6,9 @@
 int main(int argc, char **argv) {
 	if (true) // make false to run unit-tests
 	{
-
+        using namespace algebra;
+        auto matrix = creat_matrix_by_value(5,5,2);
+        display(matrix);
 		// debug section
 	} else {
 		::testing::InitGoogleTest(&argc, argv);

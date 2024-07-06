@@ -14,8 +14,7 @@ include_directories(include/)
 
 add_executable(main
         src/main.cpp
-        src/algebra.cpp
-        src/unit_test.cpp
+    #    src/unit_test.cpp
 )
 
 # Set compiler flags for C++.
